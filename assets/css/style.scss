@@ -1,0 +1,62 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+header {
+  padding-bottom: 16px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2
+}
+
+tr {
+    width: auto;
+}
+
+th {
+    width: auto;
+    padding: 2px 12px 2px 12px;
+    border: 1px solid #ebebeb;
+    background-color:#f2f2f2;
+}
+
+thead {
+    background-color: #f2f2f2;
+}
+
+table {
+    width:auto;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.footer2 {
+    margin: 70px auto 0 auto;
+    border-top: 1px solid #aaa;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+@media only screen and (max-width: 767px) {
+    .footer2 {
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+    .footer2 {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}
+
+@media only screen and (min-width:960px) {
+    .footer2 {
+        max-width: 940px;
+        margin: 0 auto;
+    }
+}
+
